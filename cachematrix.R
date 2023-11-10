@@ -24,6 +24,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
+
 ## This function calculates the inverse of a matrix using caching; caching the result for future use to avoid unnecessary recalculations.
 cacheSolve <- function(x, ...) {
     ## Get the currently stored inverse matrix.
